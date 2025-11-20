@@ -115,6 +115,8 @@ html {
     background: white;
     color: black;
     border: 1px solid #ccc;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* ===== SECTION 2: ABOUT US ===== */
@@ -123,6 +125,11 @@ html {
     background: #f8f9fc;
     text-align: center;
 }
+
+    background-size: cover;
+
+}
+
 
 .about-title {
     font-size: 36px;
@@ -270,6 +277,29 @@ background: linear-gradient(135deg, #1e3c72, #2a5298); }
 .top2 { background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); }
 .top3 { background: linear-gradient(135deg, #f2994a, #f2c94c); }
 .top4 { background: linear-gradient(135deg, #11998e, #38ef7d); }
+.top1 {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.top2 {
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+}
+
+.top3 {
+    background: linear-gradient(135deg, #f2994a, #f2c94c);
+}
+
+.top4 {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.top5 {
+    background: linear-gradient(135deg, #160c02, #b10779);
+}
+
+.top6 {
+    background: linear-gradient(135deg, #f1f4f3, #bca92d);
+}
 
 .project-card h3 {
     font-size: 20px;
@@ -306,6 +336,14 @@ background: linear-gradient(135deg, #1e3c72, #2a5298); }
     font-size: 14px;
     border-radius: 6px;
     text-decoration: none;
+}
+
+.code-btn svg {
+    width: 18px;
+    /* make icon same size as emoji/laptop */
+    height: 18px;
+    fill: #333;
+    /* match text color */
 }
 
 .code-btn {
