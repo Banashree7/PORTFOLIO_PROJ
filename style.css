@@ -193,10 +193,12 @@ span.blue {
 
 .projects-grid {
     margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 45px;
+    justify-content: center;   /* centers the cards */
 }
+
 
 .project-card {
     background: #fff;
@@ -205,7 +207,9 @@ span.blue {
     padding-bottom: 20px;
     text-align: left;
     overflow: hidden;
+    width: 300px;   /* add fixed width for flex layout */
 }
+
 
 .project-top {
     height: 120px;
