@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative Developers</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
-    
-    
+
+
 </head>
+
 <body>
 
 
 
-<!-- ===== SECTION 1: HERO ===== -->
-<section class="hero-section">
+    <!-- ===== SECTION 1: HERO ===== -->
+    <section class="hero-section">
+
+
 
         <h4 class="sub-title">Creative Developer & AI/ML Enthusiast </h4>
         <h1 class="main-title">
@@ -25,190 +29,202 @@
         <p class="description">
             We shape raw ideas into refined digital experiences with elegant UI and smart, purposeful technology.
         </p>
-         <div class="buttons">
-        <a href="#projects" class="btn primary">View Our Work</a>
-        <a href="#contacts" class="btn secondary">Get In Touch</a>
-    </div>
+        <div class="buttons">
+            <a href="#projects" class="btn primary">View Our Work</a>
+            <a href="#contacts" class="btn secondary">Get In Touch</a>
+        </div>
     </section>
 
 
 
-<!-- ===== SECTION 2: ABOUT US ===== -->
-<section id="about" class="about section">
+    <!-- ===== SECTION 2: ABOUT US ===== -->
+    <section id="about" class="about section">
 
-    <h2 class="about-title">About <span class="blue">Us</span></h2>
+        <h2 class="about-title">About <span class="blue">Us</span></h2>
 
-    <p class="about-subtitle">
-        Two passionate professionals combining skills to deliver exceptional digital solutions
-    </p>
+        <p class="about-subtitle">
+            Two passionate professionals combining skills to deliver exceptional digital solutions
+        </p>
 
-    <div class="about-cards">
+        <div class="about-cards">
 
-        <!-- Card 1 -->
-        <div class="about-card">
-            <div class="icon-circle">
-                <img src="https://img.icons8.com/ios-filled/50/ffffff/source-code.png" alt="">
+            <!-- Card 1 -->
+            <div class="about-card">
+                <div class="icon-circle">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/source-code.png" alt="">
+                </div>
+                <h3>Alex Johnson</h3>
+                <p class="role">Full Stack Developer</p>
+                <p class="desc">
+                    Passionate about creating seamless user experiences with modern web technologies.
+                </p>
             </div>
-            <h3>Alex Johnson</h3>
-            <p class="role">Full Stack Developer</p>
-            <p class="desc">
-                Passionate about creating seamless user experiences with modern web technologies.
+
+            <!-- Card 2 -->
+            <div class="about-card">
+                <div class="icon-circle">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/design.png" alt="">
+                </div>
+                <h3>Sam Rivera</h3>
+                <p class="role">UI/UX Designer</p>
+                <p class="desc">
+                    Specializing in crafting beautiful, intuitive interfaces that users love.
+                </p>
+            </div>
+        </div>
+
+        <div class="mission-card">
+            <div class="mission-icon">
+                <img src="https://img.icons8.com/ios-filled/50/2D9CFF/mission.png" alt="">
+            </div>
+            <h3>Our Mission</h3>
+            <p>
+                We believe in the power of collaboration and innovation.
+                By combining our expertise in development and design, we create digital products
+                that not only look stunning but also deliver real value to users and businesses alike.
             </p>
         </div>
 
-        <!-- Card 2 -->
-        <div class="about-card">
-            <div class="icon-circle">
-                <img src="https://img.icons8.com/ios-filled/50/ffffff/design.png" alt="">
-            </div>
-            <h3>Sam Rivera</h3>
-            <p class="role">UI/UX Designer</p>
-            <p class="desc">
-                Specializing in crafting beautiful, intuitive interfaces that users love.
+    </section>
+
+    <!-- ===== SECTION 3: PROJECTS ===== -->
+    <section id="projects" class="projects-section section">
+        <div class="projects-container">
+
+            <h2 class="projects-title">Our <span class="blue">Projects</span></h2>
+            <p class="projects-subtitle">
+                A showcase of our recent work and creative solutions
             </p>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-top top1"></div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A modern, responsive online store with advanced filtering, cart management, and secure checkout.
+                    </p>
+
+                    <div class="tags">
+                        <span>React</span><span>MongoDB</span><span>Stripe</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+                            </svg>GitHub</a>
+                        <a href="#" class="demo-btn">🔗 Live Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-top top2"></div>
+                    <h3>Task Management App</h3>
+                    <p>Collaborative task management tool with real-time updates and team coordination features.</p>
+
+                    <div class="tags">
+                        <span>Typescript</span><span>React</span><span>WebSockets</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+                            </svg>GitHub</a>
+                        <a href="#" class="demo-btn">🔗 Live Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-top top3"></div>
+                    <h3>Portfolio Dashboard</h3>
+                    <p>Analytics dashboard for tracking portfolio performance with beautiful data visualizations.</p>
+
+                    <div class="tags">
+                        <span>Next.js</span><span>Chart.js</span><span>Tailwind</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+                            </svg>GitHub</a>
+                        <a href="#" class="demo-btn">🔗 Live Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-top top4"></div>
+                    <h3>Social Media Platform</h3>
+                    <p>Feature-rich social networking app with posts, comments, likes, and real-time notifications.</p>
+
+                    <div class="tags">
+                        <span>Node.js</span><span>Firebase</span><span>API</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="code-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+                            </svg>GitHub
+                        </a>
+                        <a href="#" class="demo-btn">🔗 Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-top top5"></div>
+                    <h3>Social Media Platform</h3>
+                    <p>Feature-rich social networking app with posts, comments, likes, and real-time notifications.</p>
+
+                    <div class="tags">
+                        <span>Node.js</span><span>Firebase</span><span>API</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+                            </svg>GitHub</a>
+                        <a href="#" class="demo-btn">🔗 Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-top top6"></div>
+                    <h3>Social Media Platform</h3>
+                    <p>Feature-rich social networking app with posts, comments, likes, and real-time notifications.</p>
+
+                    <div class="tags">
+                        <span>Node.js</span><span>Firebase</span><span>API</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+                            </svg>GitHub</a>
+                        <a href="#" class="demo-btn">🔗 Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-
-    <div class="mission-card">
-        <div class="mission-icon">
-            <img src="https://img.icons8.com/ios-filled/50/2D9CFF/mission.png" alt="">
-        </div>
-        <h3>Our Mission</h3>
-        <p>
-            We believe in the power of collaboration and innovation.  
-            By combining our expertise in development and design, we create digital products  
-            that not only look stunning but also deliver real value to users and businesses alike.
-        </p>
-    </div>
-
-</section>
-
-<!-- ===== SECTION 3: PROJECTS ===== -->
-<section id="projects" class="projects-section section">
-    <div class="projects-container">
-
-        <h2 class="projects-title">Our <span class="blue">Projects</span></h2>
-        <p class="projects-subtitle">
-            A showcase of our recent work and creative solutions
-        </p>
-
-        <div class="projects-grid">
-
-            <!-- Project 1 -->
-            <div class="project-card">
-                <div class="project-top top1"></div>
-                <h3>E-Commerce Platform</h3>
-                <p>A modern, responsive online store with advanced filtering, cart management, and secure checkout.</p>
-
-                <div class="tags">
-                    <span>React</span><span>MongoDB</span><span>Stripe</span>
-                </div>
-
-                <div class="project-buttons">
-                    <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
-                                </svg>GitHub</a>
-                    <a href="#" class="demo-btn">🔗 Live Demo</a>
-                </div>
-            </div>
-
-            <!-- Project 2 -->
-            <div class="project-card">
-                <div class="project-top top2"></div>
-                <h3>Task Management App</h3>
-                <p>Collaborative task management tool with real-time updates and team coordination features.</p>
-
-                <div class="tags">
-                    <span>Typescript</span><span>React</span><span>WebSockets</span>
-                </div>
-
-                <div class="project-buttons">
-                    <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
-                                </svg>GitHub</a>
-                    <a href="#" class="demo-btn">🔗 Live Demo</a>
-                </div>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="project-card">
-                <div class="project-top top3"></div>
-                <h3>Portfolio Dashboard</h3>
-                <p>Analytics dashboard for tracking portfolio performance with beautiful data visualizations.</p>
-
-                <div class="tags">
-                    <span>Next.js</span><span>Chart.js</span><span>Tailwind</span>
-                </div>
-
-                <div class="project-buttons">
-                    <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
-                                </svg>GitHub</a>
-                    <a href="#" class="demo-btn">🔗 Live Demo</a>
-                </div>
-            </div>
-
-            <!-- Project 4 -->
-            <div class="project-card">
-                <div class="project-top top4"></div>
-                <h3>Social Media Platform</h3>
-                <p>Feature-rich social networking app with posts, comments, likes, and real-time notifications.</p>
-
-                <div class="tags">
-                    <span>Node.js</span><span>Firebase</span><span>API</span>
-                </div>
-
-                <div class="project-buttons">
-                    <a href="#" class="code-btn">
-                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
-                                </svg>GitHub
-                    </a>
-                    <a href="#" class="demo-btn">🔗 Live Demo</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-top top4"></div>
-                <h3>Social Media Platform</h3>
-                <p>Feature-rich social networking app with posts, comments, likes, and real-time notifications.</p>
-
-                <div class="tags">
-                    <span>Node.js</span><span>Firebase</span><span>API</span>
-                </div>
-
-                <div class="project-buttons">
-                    <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
-                                </svg>GitHub</a>
-                    <a href="#" class="demo-btn">🔗 Live Demo</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-top top4"></div>
-                <h3>Social Media Platform</h3>
-                <p>Feature-rich social networking app with posts, comments, likes, and real-time notifications.</p>
-
-                <div class="tags">
-                    <span>Node.js</span><span>Firebase</span><span>API</span>
-                </div>
-
-                <div class="project-buttons">
-                    <a href="#" class="code-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
-                                </svg>GitHub</a>
-                    <a href="#" class="demo-btn">🔗 Live Demo</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+    </section>
 
 
-   <!-- Skills Section Container -->
+    <!-- Skills Section Container -->
     <section class="skills-section">
         <div class="skills-container">
-            
+
             <!-- Section Header -->
             <div class="skills-header">
                 <h2>Our <span class="highlight">Skills</span></h2>
@@ -222,7 +238,8 @@
                 <div class="skill-card">
                     <div class="skill-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5 7.5c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H9.375c-.621 0-1.125.504-1.125 1.125v5.25c0 .621.504 1.125 1.125 1.125h5.25Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5 7.5c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H9.375c-.621 0-1.125.504-1.125 1.125v5.25c0 .621.504 1.125 1.125 1.125h5.25Z" />
                         </svg>
                     </div>
                     <h3>Frontend Development</h3>
@@ -239,7 +256,8 @@
                 <div class="skill-card">
                     <div class="skill-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75" />
                         </svg>
                     </div>
                     <h3>Backend Development</h3>
@@ -256,7 +274,8 @@
                 <div class="skill-card">
                     <div class="skill-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.125C7.247 1.125 4.5 3.872 4.5 7.125v10.5c0 3.253 2.747 5.875 6 5.875h7.5c3.253 0 5.875-2.622 5.875-5.875V7.125C23.875 3.872 21.128 1.125 18 1.125H10.5ZM10.5 4.875h7.5" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10.5 1.125C7.247 1.125 4.5 3.872 4.5 7.125v10.5c0 3.253 2.747 5.875 6 5.875h7.5c3.253 0 5.875-2.622 5.875-5.875V7.125C23.875 3.872 21.128 1.125 18 1.125H10.5ZM10.5 4.875h7.5" />
                         </svg>
                     </div>
                     <h3>Mobile Development</h3>
@@ -273,7 +292,8 @@
                 <div class="skill-card">
                     <div class="skill-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a4.5 4.5 0 0 0 4.5-4.5V8.25a4.5 4.5 0 0 0-4.5-4.5H6.75a4.5 4.5 0 0 0-4.5 4.5v6.75Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a4.5 4.5 0 0 0 4.5-4.5V8.25a4.5 4.5 0 0 0-4.5-4.5H6.75a4.5 4.5 0 0 0-4.5 4.5v6.75Z" />
                         </svg>
                     </div>
                     <h3>Cloud & DevOps</h3>
@@ -290,8 +310,10 @@
                 <div class="skill-card">
                     <div class="skill-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 3.104 5.714 5.715-2.12 2.122L7.63 5.225 9.75 3.104Zm3.182 8.815 3.536 3.536m-2.121 2.121-5.715-5.715m5.715 5.715-2.121 2.121m2.121-2.121 3.536 3.536M11.809 3.97a.75.75 0 0 1 1.06 0l2.122 2.121a.75.75 0 0 1 0 1.06l-2.12 2.122a.75.75 0 0 1-1.061 0l-2.121-2.12a.75.75 0 0 1 0-1.061l2.12-2.121Z" />
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m11.809 3.97.53 1.061m.53-1.061.53 1.061m-.53-1.061-.53 1.061m.53-1.061.53 1.061M14.03 11.53l-1.06.53m1.06-.53.53 1.06m-.53-1.06.53 1.06m-.53-1.06 1.06.53m0 0-.53 1.06m.53-1.06.53 1.06M6.22 13.65l-1.06.53m1.06-.53.53 1.06m-.53-1.06.53 1.06m-.53-1.06 1.06.53m0 0-.53 1.06m.53-1.06.53 1.06m5.715-3.182.53 1.061m-.53-1.061.53 1.061m-.53-1.061-.53 1.061m.53-1.061.53 1.061" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m9.75 3.104 5.714 5.715-2.12 2.122L7.63 5.225 9.75 3.104Zm3.182 8.815 3.536 3.536m-2.121 2.121-5.715-5.715m5.715 5.715-2.121 2.121m2.121-2.121 3.536 3.536M11.809 3.97a.75.75 0 0 1 1.06 0l2.122 2.121a.75.75 0 0 1 0 1.06l-2.12 2.122a.75.75 0 0 1-1.061 0l-2.121-2.12a.75.75 0 0 1 0-1.061l2.12-2.121Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m11.809 3.97.53 1.061m.53-1.061.53 1.061m-.53-1.061-.53 1.061m.53-1.061.53 1.061M14.03 11.53l-1.06.53m1.06-.53.53 1.06m-.53-1.06.53 1.06m-.53-1.06 1.06.53m0 0-.53 1.06m.53-1.06.53 1.06M6.22 13.65l-1.06.53m1.06-.53.53 1.06m-.53-1.06.53 1.06m-.53-1.06 1.06.53m0 0-.53 1.06m.53-1.06.53 1.06m5.715-3.182.53 1.061m-.53-1.061.53 1.061m-.53-1.061-.53 1.061m.53-1.061.53 1.061" />
                         </svg>
                     </div>
                     <h3>Design</h3>
@@ -308,7 +330,8 @@
                 <div class="skill-card">
                     <div class="skill-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.83-5.83M11.42 15.17l-4.95-4.95a2.652 2.652 0 0 1 0-3.749l5.83-5.83a2.652 2.652 0 0 1 3.75 0l4.95 4.95a2.652 2.652 0 0 1 0 3.749l-5.83 5.83A2.652 2.652 0 0 1 11.42 15.17Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.83-5.83M11.42 15.17l-4.95-4.95a2.652 2.652 0 0 1 0-3.749l5.83-5.83a2.652 2.652 0 0 1 3.75 0l4.95 4.95a2.652 2.652 0 0 1 0 3.749l-5.83 5.83A2.652 2.652 0 0 1 11.42 15.17Z" />
                         </svg>
                     </div>
                     <h3>Tools & Others</h3>
@@ -325,9 +348,9 @@
         </div>
     </section>
 
-    <section id= "contacts" class="contact-section">
+    <section id="contacts" class="contact-section">
         <div class="contact-container">
-            
+
             <!-- Section Header -->
             <div class="contact-header">
                 <h2>Get In <span class="highlight">Touch</span></h2>
@@ -339,7 +362,7 @@
 
                 <!-- Column 1: Contact Form -->
                 <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent (demo)!');">
-                    
+
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" id="name" placeholder="Your name">
@@ -355,8 +378,10 @@
                         <div class="message-wrapper">
                             <textarea id="message" placeholder="Tell us about your project..."></textarea>
                             <!-- Edit Icon SVG -->
-                            <svg class="edit-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+                            <svg class="edit-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
                             </svg>
                         </div>
                     </div>
@@ -370,33 +395,39 @@
                     <!-- Let's Connect Card -->
                     <div class="info-card">
                         <h3>Let's Connect</h3>
-                        <p>We're always excited to discuss new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                        <p>We're always excited to discuss new projects and opportunities. Whether you have a question
+                            or just want to say hi, feel free to reach out!</p>
                         <ul>
                             <li>
                                 <!-- Email Icon -->
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                                 </svg>
                                 Email
                             </li>
                             <li>
                                 <!-- GitHub Icon (simple brand shape) -->
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
                                 </svg>
                                 GitHub
                             </li>
                             <li>
                                 <!-- LinkedIn Icon -->
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M13.43 13.43H11.1V9.87c0-.83-.02-1.9-1.16-1.9-1.16 0-1.34.91-1.34 1.84v3.62H6.27V5.98h2.1v.96h.03c.29-.55 1-.96 2.07-.96 2.22 0 2.63 1.46 2.63 3.36v4.09ZM3.97 5.02a1.05 1.05 0 1 1 0-2.1 1.05 1.05 0 0 1 0 2.1Z M5.02 13.43H2.92V5.98h2.1v7.45Z M14.48 0H1.52A1.52 1.52 0 0 0 0 1.52v12.96A1.52 1.52 0 0 0 1.52 16h12.96A1.52 1.52 0 0 0 16 14.48V1.52A1.52 1.52 0 0 0 14.48 0Z" />
+                                    <path
+                                        d="M13.43 13.43H11.1V9.87c0-.83-.02-1.9-1.16-1.9-1.16 0-1.34.91-1.34 1.84v3.62H6.27V5.98h2.1v.96h.03c.29-.55 1-.96 2.07-.96 2.22 0 2.63 1.46 2.63 3.36v4.09ZM3.97 5.02a1.05 1.05 0 1 1 0-2.1 1.05 1.05 0 0 1 0 2.1Z M5.02 13.43H2.92V5.98h2.1v7.45Z M14.48 0H1.52A1.52 1.52 0 0 0 0 1.52v12.96A1.52 1.52 0 0 0 1.52 16h12.96A1.52 1.52 0 0 0 16 14.48V1.52A1.52 1.52 0 0 0 14.48 0Z" />
                                 </svg>
                                 LinkedIn
                             </li>
                             <li>
                                 <!-- Twitter Icon -->
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.918l-3.866-5.071-4.42 5.071H.75l5.7-6.57L0 .75h5.06l3.51 4.615L12.6.75Zm-.81 12.95h1.254L3.83 2.14H2.5l9.28 11.56Z" />
+                                    <path
+                                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.918l-3.866-5.071-4.42 5.071H.75l5.7-6.57L0 .75h5.06l3.51 4.615L12.6.75Zm-.81 12.95h1.254L3.83 2.14H2.5l9.28 11.56Z" />
                                 </svg>
                                 Twitter
                             </li>
@@ -408,8 +439,10 @@
                         <h3>Quick Response</h3>
                         <p>
                             <!-- Info Icon -->
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
                             </svg>
                             We typically respond within 24-48 hours during business days.
                         </p>
@@ -423,9 +456,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 
 
 </body>
+
 </html>
