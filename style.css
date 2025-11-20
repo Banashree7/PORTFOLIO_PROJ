@@ -33,6 +33,48 @@ html {
     text-align: center;
 }
 
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    position: relative; 
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    padding: 12px 30px;
+    border: 3px solid black;
+    border-radius: 40px;
+    background: white;
+}
+
+
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: 700;
@@ -216,7 +258,15 @@ span.blue {
 }
 
 /* gradient headers */
-.top1 { background: linear-gradient(135deg, #1e3c72, #2a5298); }
+.top1 { .top {
+    background-image: url("sandbox:/mnt/data/Restaurant.jpg");
+    background-size: cover;      /* Image covers entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    height: 400px;               /* Set desired height */
+    width: 100%;                 /* Full width section */
+}
+background: linear-gradient(135deg, #1e3c72, #2a5298); }
 .top2 { background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); }
 .top3 { background: linear-gradient(135deg, #f2994a, #f2c94c); }
 .top4 { background: linear-gradient(135deg, #11998e, #38ef7d); }
