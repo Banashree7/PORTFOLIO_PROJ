@@ -11,6 +11,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
 .section {
     padding: 60px 20px;
     min-height: 100vh;
@@ -292,16 +295,25 @@ span.blue {
 }
 
 .code-btn, .demo-btn {
-    padding: 8px 14px;
+    padding: 5px 14px;
     font-size: 14px;
     border-radius: 6px;
     text-decoration: none;
 }
 
+.code-btn svg {
+    width: 18px;              /* make icon same size as emoji/laptop */
+    height: 18px;
+    fill: #333;
+                   /* match text color */
+}
 .code-btn {
     background: white;
     border: 1px solid #ccc;
     color: #333;
+}
+.code-btn:hover {
+    background: #f0f0f0;
 }
 
 .demo-btn {
